@@ -5,7 +5,6 @@ def simple_addition(a, b):
 def simple_addition_calculate(a, b):
     return a + b
 
-# Testler
 simple_addition(5, 10)
 simple_addition(3, 7)
 simple_addition(0, 0)
