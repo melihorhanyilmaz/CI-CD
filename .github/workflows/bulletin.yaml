@@ -18,8 +18,8 @@ jobs:
       if: ${{ success() }}
       uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
       with:
-        username: ${{ secrets.melihorhanyilmaz }}
-        password: ${{ secrets.mlhylmz99 }}
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
     - name: Push Docker image
       run: |
