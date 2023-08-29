@@ -1,2 +1,2 @@
-def test_simple_addition(a, b):
+def test_simple_addition():
     assert 1+1 == 2
